@@ -74,7 +74,7 @@ export const AddPlaceOptions = ({ route, navigation }) => {
                              value={route?.params}
                              onPress={() => navigation.navigate({name: 'list'})} />
         ),
-        headerTitle: 'Ajouter un lieu'
+        headerTitle: 'Add new place'
   }
 }
 

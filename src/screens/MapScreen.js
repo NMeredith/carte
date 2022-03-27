@@ -57,7 +57,7 @@ const ReturnLocationButton = (props) => {
 
 export const MapOptions = ({ route, navigation }) => {
     console.log(route)
-    const {readOnly, title='Choisir un lieu'} = route?.params ?? {};
+    const {readOnly, title='Add new place'} = route?.params ?? {};
     return {
         ...(
             readOnly ? 
