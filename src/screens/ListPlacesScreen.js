@@ -1,6 +1,7 @@
 import { Ionicons } from "@expo/vector-icons";
 import React from "react";
 import { FlatList, Platform, Text } from "react-native";
+import { View } from "react-native-web";
 import { useDispatch, useSelector } from "react-redux";
 import { COLORS } from '../assets/Constants';
 import CustomHeaderButton from "../components/CustomHeaderButton";
@@ -36,7 +37,7 @@ const AddPlaceButton = (props) => (
         <Ionicons name='add-circle-outline' size={30} 
                   color={Platform.OS  === 'android' ? COLORS.color3 : COLORS.main}
         />
-    </CustomHeaderButton>
+    </CustomHeaderButton>    
     
 )
 
@@ -48,7 +49,7 @@ export const ListPlacesOptions = ({ route, navigation }) => {
                             onPress={() => navigation.navigate({name: 'add'})} />
         ),
         
-        headerTitle: 'My Places'
+        headerTitle: 'My Places',
   }
 }
 

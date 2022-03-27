@@ -11,22 +11,19 @@ consultables sur une carte.
 
 L'application devrait les fonctionnalités suivantes : 
 
-- [ ] **Page d’un lieux**
+- [✓] **Page d’un lieux**
 - [ ] **Page de recherche d’un lieu enregistré**
-- [ ] **Page carte**
-- [ ] **Ajouter un lieu**
+- [✓] **Page carte**
+- [✓] **Ajouter un lieu**
 - [ ] **Annuler une recherche**
-- [ ] **Ajouter/retirer un lieu visité**
-- [ ] **Ajouter/ retirer un lieu à visiter**
-- [ ] **Affichage des lieux visité**
-- [ ] **Affichage des lieux à visiter**
-- [ ] **Bouton pour filtrer sur la carte**
-- [ ] **Proposer l'application en français et en anglais**
-- [ ] **Utiliser une API pour récupérer une liste de lieu (et l'afficher)**
+- [✓] **Ajouter/retirer un lieu favori**
+- [✓] **Affichage des lieux favori**
+- [✓] **Bouton pour filtrer sur la carte**
+- [✓] **Utiliser une API pour récupérer une liste de lieu (et l'afficher)**
 - [ ] **Filtrer sur la page recherche les lieux enregistré/de l'API**
 - [ ] **Préremplir l'ajout d'un lieu par rapport à un lieu de l'API**
 - [ ] **Étoffer l'intéraction avec les lieux de l'API**
-- [ ] **Pouvoir afficher l'itinéraire vers un lieu depuis l'utilisateur**
+- [✓] **Pouvoir afficher l'itinéraire vers un lieu depuis l'utilisateur**
 - [ ] **Bouton de filtre "Maintenant" pour afficher ce qui est actuellement ouvert**
 
 ### Détails des fonctionnalités
@@ -36,10 +33,9 @@ L'application devrait les fonctionnalités suivantes :
 - **Page carte** : Affiche uniquement la carte (contrairement au sujet). Affichage des positions de tous(?) les lieux avec un marqueur idientifiable, dépendant de la catégorie du lieu. Par défaut la carte est centré sur la position de l'utilisateur, par défaut centré sur Metz. La carte est intéractive (zoom, déplacement, page de détail d'un lieu). Cliquer sur un lieu permet d'afficher une petite fenêtre qui donne un résumé du lieu, cliquer sur ce résumé redirige vers la page de détail du lieu. On peux effectuer la recherche sur la page carte. 
 - **Ajouter un lieu** : Permet d'enregistrer un lieu personnalisé (avec nom, description, catégorie(s), location), les catégories sont à choisir parmi une liste pré-établie. Le bouton ajouter un lieu est visible depuis les barres de recherche de la page de recherche et de la page carte.
 - **Annuler une recherche** : Réinitialise la recherche (vider le champ de recherche et remet sur l'utilisateur centré sur la carte)
-- **Ajouter/Retirer un lieu visité/à visiter** : Avoir deux boutons pour mettre dans la liste correspondante
-- **Affichage des lieux visité/à visiter** : Fait office d'historique et de whishlist
+- **Ajouter/Retirer un lieu favori** : Avoir deux boutons pour mettre dans la liste favoris et supprimer de la liste
+- **Affichage des lieux favori** : Fait office d'historique et de whishlist
 - **Bouton pour filtrer sur la carte** : Avoir un bonton pour filtrer par catégories sur la carte
-- **Proposer l'application en français et en anglais** : Proposer une version traduite de l'application
 - **Utiliser une API pour récupérer une liste de lieu (et l'afficher)** : Utilisation d'une API pour récupérer une liste de lieux
 - **Filtrer sur la page recherche les lieux enregistrer/de l'API** : Pouvoir avoir un filtre pour n'afficher que les lieux enregistrer ou les lieux de l'API
 - **Préremplir l'ajout d'un lieu par rapport à un lieu de l'API** : Si les informations rentrées dans l'application sont trop proches d'un lieu de l'API, une proposition de remplacement/annulation est faite
