@@ -37,7 +37,7 @@ export const addPlacetoSql = (title, lat, lng, address) => {
         address,
         lat,
         lng
-        ) values(?, ?, ?, ?, ?);`,
+        ) values(?, ?, ?, ?);`,
         [title, address, lat, lng]
     );
 };

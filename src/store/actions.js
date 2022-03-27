@@ -41,10 +41,10 @@ export const addPlace = ({name, lat, lng}) => {
             console.debug(e);
             throw 'Failed to retrieve the address'; 
         }
-        const result = await addPlacetoSql(name, newPath, lat, lng, address);
+        const result = await addPlacetoSql(name, lat, lng, address);
         dispatch({
             type: ADD_PLACE_ACTION,
-            place: new Place(result?.insertId, name, newPath, lat, lng, address)
+            place: new Place(result?.insertId, name, lat, lng, address)
         });
     }
 }
