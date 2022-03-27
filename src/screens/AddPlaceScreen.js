@@ -13,6 +13,10 @@ import { addPlace } from '../store/actions';
 const AddPlaceScreen = ({navigation}) => {
     const [title, setTitle] = React.useState('');
     const [location , applyLocation] = React.useState(null);
+
+    const onChangeLocationDestination = (places) => {
+        setLocationDestination(places)
+    }
     React.useEffect(() => {
         navigation.setParams({
             name:title,
